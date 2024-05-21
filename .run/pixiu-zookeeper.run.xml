@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="pixiu-zookeeper" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="dubbo-go-pixiu-samples" />
+    <working_directory value="$PROJECT_DIR$/dubbogo/simple/zookeeper" />
+    <parameters value="gateway start -c pixiu/conf.yaml -g server/profiles/dev/log.yml" />
+    <kind value="DIRECTORY" />
+    <package value="github.com/dubbo-go-pixiu/samples" />
+    <directory value="$PROJECT_DIR$/../dubbo-go-pixiu/cmd/pixiu" />
+    <filePath value="$PROJECT_DIR$/../dubbo-go-pixiu/cmd/pixiu" />
+    <method v="2" />
+  </configuration>
+</component>
