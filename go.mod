@@ -3,7 +3,7 @@ module github.com/dubbo-go-pixiu/samples
 go 1.18
 
 require (
-	dubbo.apache.org/dubbo-go/v3 v3.1.1-rc1
+	dubbo.apache.org/dubbo-go/v3 v3.1.1
 	github.com/apache/dubbo-go-hessian2 v1.12.3
 	github.com/apache/dubbo-go-pixiu v1.0.0-rc2
 	github.com/dubbogo/gost v1.14.0
@@ -163,3 +163,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	mosn.io/proxy-wasm-go-host v0.1.0 // indirect
 )
+
+replace github.com/apache/dubbo-go-pixiu => ../dubbo-go-pixiu

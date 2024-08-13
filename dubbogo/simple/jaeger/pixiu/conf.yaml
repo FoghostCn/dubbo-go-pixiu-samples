@@ -24,7 +24,7 @@ static_resources:
       address:
         socket_address:
           address: "0.0.0.0"
-          port: 8881
+          port: 8882
       filter_chains:
         filters:
           - name: dgp.filter.httpconnectionmanager
@@ -35,10 +35,10 @@ static_resources:
                       prefix: "/api/v1"
               http_filters:
                 - name: dgp.filters.tracing
-                  config:
+                  config:88
                 - name: dgp.filter.http.apiconfig
                   config:
-                    path: $PROJECT_DIR/pixiu/api_config.yaml
+                    path: /Users/foghost/Documents/GoProjects/dubbo-go-pixiu-samples/dubbogo/simple/jaeger/pixiu/api_config.yaml
                 - name: dgp.filter.http.dubboproxy
                   config:
                     dubboProxyConfig:

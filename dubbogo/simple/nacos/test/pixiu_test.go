@@ -30,7 +30,7 @@ import (
 )
 
 func TestPost1(t *testing.T) {
-	url := "http://localhost:8881/BDTService/com.dubbogo.pixiu.UserService/1.0.0/GetUserByName"
+	url := "http://localhost:8882/BDTService/com.dubbogo.pixiu.UserService/1.0.0/GetUserByName"
 	data := "{\"types\":\"string\",\"values\":\"tc\"}"
 	client := &http.Client{Timeout: 5 * time.Second}
 	req, err := http.NewRequest("POST", url, strings.NewReader(data))
