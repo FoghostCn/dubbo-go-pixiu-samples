@@ -20,6 +20,8 @@ require (
 	google.golang.org/protobuf v1.30.0
 )
 
+replace github.com/apache/dubbo-go-pixiu => ../dubbo-go-pixiu
+
 require (
 	cloud.google.com/go/compute v1.19.1 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
@@ -163,5 +165,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	mosn.io/proxy-wasm-go-host v0.1.0 // indirect
 )
-
-replace github.com/apache/dubbo-go-pixiu => ../dubbo-go-pixiu
